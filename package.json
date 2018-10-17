@@ -18,6 +18,10 @@
     "url": "https://github.com/hassanamir/demo_rch/issues"
   },
   "homepage": "https://github.com/hassanamir/demo_rch#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "grunt-modernizr": "^1.0.3",
+    "grunt-cli": "^1.3.1"
+  },
+  "dependencies": {
+  }
 }
