@@ -1,19 +1,78 @@
-.body{
-    font: 100% / 1.5 Arial, helvetica, sans-serif ;
-}
-.box {
-    width: 400px;
-    height: 220px;
-    margin: 20px auto;
-    border: 1px solid #000;
-    padding: 20px;
-    box-shadow: 0 0 10px #000;
-    background: #ffffff;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7c7dc+0,85b2d3+100;Blue+Grey+3D */
-background: rgb(167,199,220); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
+html, body {
+    background-color: #333;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    height: 180pt;
+    width: 350pt;
+    background-color: #222;
+    display: inline-block;
+    border-radius: 10pt;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+  }
+  .card:link, .card-header:active, .card:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }
+  .card:active {
+    transform: scale(0.99);
+    opacity: 0.7;
+  }
+  .card-icon {
+    width: 70pt;
+    margin-left: 25pt;
+    margin-top: 35pt;
+    opacity: 0.5;
+  }
+  .card-header {
+    font-weight: bold;
+    font-size: 20pt;
+    margin: 0;
+    margin-left: 25pt;
+    margin-top: 15pt;
+  }
+  
+  /*
+    Color variations
+  */
+  
+  .pink {
+      background-image: linear-gradient( 135deg, #FE86C3, #B33675);
+  }
+  .green {
+      background-image: linear-gradient( 135deg, #79D4B8, #459989);
+  }
+  .orange {
+      background-image: linear-gradient( 135deg, #E47D57, #C93F1F);
+  }
+  .red {
+      background-image: linear-gradient( 135deg, #E7414D, #B3252D);
+  }
+  .yellow {
+      background-image: linear-gradient( 135deg, #E9BE40, #CD812E);
+  }
+  .purple {
+      background-image: linear-gradient( 135deg, #8361F2, #4623B1);
+  }
+  .blue {
+      background-image: linear-gradient( 135deg, #78BAFF, #2E6BC3);
+  }
+  .gray {
+      background-image: linear-gradient( 135deg, #8D9196, #525458);
+  }
+  h1 {
+      text-align: center;
+  }
